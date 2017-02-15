@@ -2,10 +2,13 @@
   "name": "triangle-taxonomist",
   "version": "0.1.0",
   "description": "A simple command-line tool for categorizing triangles. Edit",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint test/*.js src/*.js",
     "test": "npm run lint && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require babel-register"
+  },
+  "bin": {
+    "tt": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
