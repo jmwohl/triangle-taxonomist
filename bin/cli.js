@@ -14,7 +14,7 @@ const c = program.args[2];
 
 // Make sure all three args are passed -- if not, warn user, print help
 if (typeof a === 'undefined' || typeof b === 'undefined' || typeof c === 'undefined') {
-  console.log('\nPlease specify a value for all three sides.');
+  console.log('\nPlease specify a value for all three sides of the ∆.');
   program.outputHelp();
   process.exit(1);
 }

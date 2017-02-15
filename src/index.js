@@ -23,6 +23,7 @@ function isValidTriangle(a, b, c) {
 }
 
 function getTriangleType(a, b, c) {
+  // check validity
   if (!isValidTriangle(a, b, c)) {
     return 'not a triangle';
   }
@@ -35,6 +36,6 @@ function getTriangleType(a, b, c) {
   if (a === b || b === c || c === a) {
     return 'isosceles';
   }
-  // check for scalene
+  // it's scalene
   return 'scalene';
 }

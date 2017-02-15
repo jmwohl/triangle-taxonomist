@@ -1,14 +1,20 @@
 # triangle-taxonomist
 A simple command-line tool for categorizing triangles.
 
+## Requirements
+
+- Node 6.x
+
 ## Installation
 
-This command-line tool is a node application, but is not published to npm. Assuming you [have node installed](https://nodejs.org/en/download/), simply clone this repo and install dependencies:
+This command-line tool is a node application, but is not published to npm. Assuming you [have node v6.x installed](https://nodejs.org/en/download/), simply clone this repo and install dependencies:
 
 ```terminal
 $ git clone https://github.com/jmwohl/triangle-taxonomist.git && cd triangle-taxonomist
-$ npm install
+$ npm install -g
 ```
+
+Although not necessary to install globally, this will allow you to use the `tt` command directly rather than executing `./bin/cli.js`.
 
 ## Usage
 
@@ -27,12 +33,12 @@ $ tt 3 4 4
 Will result in the following output:
 
 ```terminal
-$ ∆   The triangle with sides 3, 4, 4 is an ISOSCELES triangle.   ∆
+$ isosceles
 ```
 
 ## Running tests
 
-To run the unit tests:
+To run the unit tests and display code coverage:
 
 ```terminal
 $ npm test
