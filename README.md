@@ -1,6 +1,10 @@
 # triangle-taxonomist
 A simple command-line tool for categorizing triangles.
 
+[![Build Status](https://travis-ci.org/jmwohl/triangle-taxonomist.svg?branch=master)](https://travis-ci.org/jmwohl/triangle-taxonomist)
+
+[![Coverage Status](https://coveralls.io/repos/github/jmwohl/triangle-taxonomist/badge.svg?branch=master)](https://coveralls.io/github/jmwohl/triangle-taxonomist?branch=master)
+
 ## Requirements
 
 - Node 6.x
