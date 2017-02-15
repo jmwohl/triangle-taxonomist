@@ -9,7 +9,11 @@ A simple command-line tool for categorizing triangles.
 
 ## Installation
 
-This command-line tool is a node application, but is not published to npm. Assuming you [have node v6.x installed](https://nodejs.org/en/download/), simply clone this repo and install dependencies:
+```terminal
+npm install -g triangle-taxonomy
+```
+
+To install from the source, simply clone this repo and install dependencies:
 
 ```terminal
 $ git clone https://github.com/jmwohl/triangle-taxonomist.git && cd triangle-taxonomist
@@ -18,7 +22,7 @@ $ npm install -g
 
 Although not necessary to install globally, this will allow you to use the `tt` command directly rather than executing `./bin/cli.js`.
 
-To uninstall, use `$ npm uninstall -g`.
+To uninstall, use `$ npm uninstall -g triangle-taxonomy` (or `$ npm uninstall -g` in the repo dir if you've installed from source).
 
 ## Usage
 
