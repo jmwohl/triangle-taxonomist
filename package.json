@@ -1,0 +1,42 @@
+{
+  "name": "triangle-taxonomist",
+  "version": "0.1.0",
+  "description": "A simple command-line tool for categorizing triangles. Edit",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint test/*.js src/*.js",
+    "test": "npm run lint && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmwohl/triangle-taxonomist.git"
+  },
+  "keywords": [
+    "triangle",
+    "calculator"
+  ],
+  "author": "Jonathan Wohl <jon@jonwohl.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmwohl/triangle-taxonomist/issues"
+  },
+  "homepage": "https://github.com/jmwohl/triangle-taxonomist#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^2.4.5",
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-register": "^6.18.0"
+  }
+}
