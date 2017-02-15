@@ -1,9 +1,7 @@
 # triangle-taxonomist
 A simple command-line tool for categorizing triangles.
 
-[![Build Status](https://travis-ci.org/jmwohl/triangle-taxonomist.svg?branch=master)](https://travis-ci.org/jmwohl/triangle-taxonomist)
-
-[![Coverage Status](https://coveralls.io/repos/github/jmwohl/triangle-taxonomist/badge.svg?branch=master)](https://coveralls.io/github/jmwohl/triangle-taxonomist?branch=master)
+[![Build Status](https://travis-ci.org/jmwohl/triangle-taxonomist.svg?branch=master)](https://travis-ci.org/jmwohl/triangle-taxonomist) [![Coverage Status](https://coveralls.io/repos/github/jmwohl/triangle-taxonomist/badge.svg?branch=master)](https://coveralls.io/github/jmwohl/triangle-taxonomist?branch=master)
 
 ## Requirements
 
@@ -19,6 +17,8 @@ $ npm install -g
 ```
 
 Although not necessary to install globally, this will allow you to use the `tt` command directly rather than executing `./bin/cli.js`.
+
+To uninstall, use `$ npm uninstall -g`.
 
 ## Usage
 
