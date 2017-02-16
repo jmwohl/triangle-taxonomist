@@ -10,7 +10,7 @@ A simple command-line tool for categorizing triangles.
 ## Installation
 
 ```terminal
-npm install -g triangle-taxonomy
+$ npm install -g triangle-taxonomist
 ```
 
 To install from the source, simply clone this repo and install dependencies:
